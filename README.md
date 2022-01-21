@@ -18,9 +18,13 @@ Le TDD construit un référentiel de tests au fur et à mesure des itérations. 
 Si on utilise la méthode de développement TDD, l’équipe projet suit le cycle suivant :
 
 1 - On développe un test qui échoue volontairement, mais qui respecte les règles métiers définies.
+
 2 - On rédige le code qui permet de passer le test.
+
 3 - On refactorise le code.
 
 Workflow TDD<img width="702" alt="image" src="https://user-images.githubusercontent.com/98129570/150563591-45b0e162-813d-4e4c-a5d5-287aaa420718.png">
 
+
+On itère ainsi jusqu’au développement complet de la fonctionnalité. A chaque ajout de test et de développements, on vérifie que tous les tests précédents sont validés. De cette manière, aucune régression n’est introduite par le développeur.
 
