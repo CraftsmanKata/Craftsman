@@ -13,5 +13,7 @@ On contrôle que les tests passent désormais :
 Nous continuons ainsi de la meme manier pour les autres methode
 
 1 - Création des testes (Fail).
+
 2 - Création de l'implimentation des testes pour quel passer.
+
 3 - Amelioration de l'implemention.
