@@ -9,3 +9,9 @@ Voici le code corrigé :
 On contrôle que les tests passent désormais :
 
 <img width="703" alt="Capture d’écran 2022-01-22 à 17 14 03" src="https://user-images.githubusercontent.com/98129570/150646641-7435061b-19b5-4730-9cb0-db06b07f7305.png">
+
+Nous continuons ainsi de la meme manier pour les autres methode
+
+1 - Création des testes (Fail).
+2 - Création de l'implimentation des testes pour quel passer.
+3 - Amelioration de l'implemention.
