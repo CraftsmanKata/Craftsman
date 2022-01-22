@@ -19,3 +19,4 @@ Execution du test et constater qu'il échoue :
 <img width="493" alt="image" src="https://user-images.githubusercontent.com/98129570/150645306-ae5f0e17-4866-4dda-a2fc-842be2326ecb.png">
 
 
+Le test échoue et cela est normal car l'implémentation complète n'a pas encore été faite.
