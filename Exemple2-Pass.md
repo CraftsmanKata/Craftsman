@@ -20,3 +20,21 @@ Execution du test et constater qu'il échoue :
 
 
 Le test échoue et cela est normal car l'implémentation complète n'a pas encore été faite.
+
+Le Type de compte est COURANT, un champ type de compte est créé et il est initialisé lors de la construction de l'objet à la bonne valeur.
+
+Voici le code corrigé :
+
+Capture d’écran 2022-01-22 à 17 06 22
+
+On contrôle que les tests passent désormais :
+
+Capture d’écran 2022-01-22 à 17 14 03
+
+Nous continuons ainsi de la meme manier pour les autres methode
+
+1 - Création des testes (Fail).
+
+2 - Création de l'implimentation des testes pour quel passer.
+
+3 - Amelioration de l'implemention.
