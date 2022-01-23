@@ -20,16 +20,10 @@ Le Type de compte est COURANT, un champ type de compte est créé et il est init
 
 Voici le code corrigé :
 
-Capture d’écran 2022-01-22 à 17 06 22
+<img width="663" alt="image" src="https://user-images.githubusercontent.com/98129570/150691262-844cef82-2148-4905-9374-fdf85f54895d.png">
 
 On contrôle que les tests passent désormais :
 
-Capture d’écran 2022-01-22 à 17 14 03
+<img width="899" alt="image" src="https://user-images.githubusercontent.com/98129570/150691319-0a46aa09-4a28-4a7f-9053-3505d0c391e6.png">
 
-Nous continuons ainsi de la meme manier pour les autres methode
-
-1 - Création des testes (Fail).
-
-2 - Création de l'implimentation des testes pour quel passer.
-
-3 - Amelioration de l'implemention.
+Maintenant nous passons à l'etape suivante : le refactorisation
