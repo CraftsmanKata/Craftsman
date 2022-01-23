@@ -1,7 +1,14 @@
-# Creation d'un projet Java en Intelleji
+# Creation d'un projet Java en IntelleJ
 
+Dans le menu de IntelliJ, selectionnez File -> New -> Project
 
+<img width="706" alt="image" src="https://user-images.githubusercontent.com/98129570/150686275-078066ce-7867-4873-b6cf-b26af54ef640.png">
 
+Selectionnez la version de JDK
+
+<img width="813" alt="image" src="https://user-images.githubusercontent.com/98129570/150686297-589c191b-c76c-4d68-b0e2-5be2ecaec6eb.png">
+
+Puis, saisir le nom de votre projet
 
 # Presentation TDD
 
@@ -28,7 +35,7 @@ Si on utilise la méthode de développement TDD, l’équipe projet suit le cycl
 
 3 - On refactorise le code.
 
-Workflow TDD<img width="702" alt="image" src="https://user-images.githubusercontent.com/98129570/150563591-45b0e162-813d-4e4c-a5d5-287aaa420718.png">
+<img width="702" alt="image" src="https://user-images.githubusercontent.com/98129570/150563591-45b0e162-813d-4e4c-a5d5-287aaa420718.png">
 
 
 On itère ainsi jusqu’au développement complet de la fonctionnalité. A chaque ajout de test et de développements, on vérifie que tous les tests précédents sont validés. De cette manière, aucune régression n’est introduite par le développeur.
