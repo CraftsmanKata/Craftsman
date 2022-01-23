@@ -3,16 +3,11 @@
 Dans le but de corriger les erreurs de compilation il faut créer les objets Compte avec le minimum d'information.
 
 
-Voici les implémentation minimum pour l'objet Compte et TypeCompte :
+Voici les implémentation minimum pour l'objet Compte :
 
 # Compte
 
-<img width="648" alt="image" src="https://user-images.githubusercontent.com/98129570/150644922-108ec4c1-b07f-46d1-8e1c-3bb6ffc09378.png">
-
-
-# TypeCompte
-
-<img width="648" alt="image" src="https://user-images.githubusercontent.com/98129570/150644943-ef7125b7-38e4-4d02-84bb-b924e184fe87.png">
+<img width="663" alt="image" src="https://user-images.githubusercontent.com/98129570/150690738-f2a679e6-017e-414a-a9e0-512215a1732a.png">
 
 Execution du test et constater qu'il échoue :
 
