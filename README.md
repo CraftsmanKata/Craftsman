@@ -1,3 +1,8 @@
+# Creation d'un projet Java en Intelleji
+
+
+
+
 # Presentation TDD
 
 Le TDD (Test Driven Development) est une pratique qui consiste à développer les tests avant d’écrire le code applicatif. De cette manière, les tests ne sont plus écrits en fonction du code, ce qui est le cas dans les processus actuels de développement. On évite ainsi de se retrouver dans la situation où, à cause de la manière dont l’application a été codée, on ne peut tester certaines parties.
