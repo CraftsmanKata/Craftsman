@@ -1,6 +1,6 @@
 # Troisieme Exemple - Refactorisation
 
-Dans la partie d'ameliration de code source, nous avons create un enumeration "TypeCompte" qui va remplacer le type String. 
+Dans la partie d'amélioration de code source, nous avons creé une enumeration "TypeCompte" qui va remplacer le type String. 
 
 Le Type de compte est COURANT, un champ type de compte est créé et il est initialisé lors de la construction de l'objet à la bonne valeur.
 
@@ -23,3 +23,7 @@ Nous continuons ainsi de la meme manier pour les autres methode
 2 - Création de l'implimentation des testes pour quel passer.
 
 3 - Amelioration de l'implemention.
+
+# Exercices
+
+Ecrivez la methode *virement* qui permet de passer d'un virement du Compte A vers la Compte B, on respectant le mecanisme de TDD.
