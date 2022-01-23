@@ -17,18 +17,18 @@ public class Compte {
     }
 
     public double getSolde() {
-        return solde;
+        return 0;
     }
 
     public Date getDateCreation() {
-        return dateCreation;
+        return null;
     }
 
     public String getType() {
-        return type;
+        return null;
     }
 
     public Long getCode() {
-        return code;
+        return null;
     }
 }
