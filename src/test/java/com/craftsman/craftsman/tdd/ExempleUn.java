@@ -16,17 +16,18 @@ public class ExempleUn {
 
     @Test
     void TestVirementCompteIsNull(){
-        Compte source = null ;
+        Compte source = null;
         Compte destination = null;
-
-        // To completed
+        Compte.virement(source,destination,2000);
+        Assertions.assertEquals(source,null);
+        Assertions.assertEquals(destination,null);
     }
 
     @Test
     void TestVirementSoldeCompteSourceEgaleZiro(){
         Compte source = new Compte(null,0,new Date(), TypeCompte.COURANT);
         Compte destination = new Compte(null,12000,new Date(), TypeCompte.COURANT);
-        source.virement(source,destination,2000);
+        Compte.virement(source,destination,2000);
         Assertions.assertEquals(source.getSolde(),0);
         Assertions.assertEquals(destination.getSolde(),12000);
     }
@@ -35,7 +36,7 @@ public class ExempleUn {
     void TestVirementSoldeCompteSourceInferieurAuMontant(){
         Compte source = new Compte(null,5000,new Date(), TypeCompte.COURANT);
         Compte destination = new Compte(null,12000,new Date(), TypeCompte.COURANT);
-        source.virement(source,destination,8000);
+        Compte.virement(source,destination,8000);
         Assertions.assertEquals(source.getSolde(),5000);
         Assertions.assertEquals(destination.getSolde(),12000);
     }
@@ -44,7 +45,7 @@ public class ExempleUn {
     void TestVirement(){
         Compte source = new Compte(null,12000,new Date(), TypeCompte.COURANT);
         Compte destination = new Compte(null,8000,new Date(), TypeCompte.COURANT);
-        source.virement(source,destination,2000);
+        Compte.virement(source,destination,2000);
         Assertions.assertEquals(source.getSolde(),10000);
         Assertions.assertEquals(destination.getSolde(),10000);
     }

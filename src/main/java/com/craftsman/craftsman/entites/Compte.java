@@ -50,7 +50,7 @@ public class Compte {
         this.type = type;
     }
 
-    public void virement (Compte source, Compte destination, double montant){
+    public static void virement (Compte source, Compte destination, double montant){
         if(null!=source && null!=destination){
             if(source.getSolde()>=montant){
                 source.setSolde(source.getSolde()-montant);
