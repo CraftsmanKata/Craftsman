@@ -1,15 +1,3 @@
-# Creation d'un projet Java en IntelleJ
-
-Dans le menu de IntelliJ, selectionnez File -> New -> Project
-
-<img width="706" alt="image" src="https://user-images.githubusercontent.com/98129570/150686275-078066ce-7867-4873-b6cf-b26af54ef640.png">
-
-Selectionnez la version de JDK
-
-<img width="813" alt="image" src="https://user-images.githubusercontent.com/98129570/150686297-589c191b-c76c-4d68-b0e2-5be2ecaec6eb.png">
-
-Puis, saisir le nom de votre projet
-
 # Presentation TDD
 
 Le TDD (Test Driven Development) est une pratique qui consiste à développer les tests avant d’écrire le code applicatif. De cette manière, les tests ne sont plus écrits en fonction du code, ce qui est le cas dans les processus actuels de développement. On évite ainsi de se retrouver dans la situation où, à cause de la manière dont l’application a été codée, on ne peut tester certaines parties.
@@ -39,5 +27,17 @@ Si on utilise la méthode de développement TDD, l’équipe projet suit le cycl
 
 
 On itère ainsi jusqu’au développement complet de la fonctionnalité. A chaque ajout de test et de développements, on vérifie que tous les tests précédents sont validés. De cette manière, aucune régression n’est introduite par le développeur.
+
+# Creation d'un projet Java en IntelleJ
+
+Dans le menu de IntelliJ, selectionnez File -> New -> Project
+
+<img width="706" alt="image" src="https://user-images.githubusercontent.com/98129570/150686275-078066ce-7867-4873-b6cf-b26af54ef640.png">
+
+Selectionnez la version de JDK
+
+<img width="813" alt="image" src="https://user-images.githubusercontent.com/98129570/150686297-589c191b-c76c-4d68-b0e2-5be2ecaec6eb.png">
+
+Puis, saisir le nom de votre projet
 
 
