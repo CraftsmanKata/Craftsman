@@ -1,6 +1,7 @@
 package test.java.com.craftsman.craftsman.tdd;
 
 import main.java.com.craftsman.craftsman.entites.Compte;
+import main.java.com.craftsman.craftsman.enums.TypeCompte;
 import org.junit.jupiter.api.*;
 
 import java.util.Date;
