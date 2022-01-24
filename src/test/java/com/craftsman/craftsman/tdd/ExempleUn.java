@@ -23,11 +23,20 @@ public class ExempleUn {
     }
 
     @Test
-    void TestVirementSoldeCompteEgaleZiro(){
+    void TestVirementSoldeCompteSourceEgaleZiro(){
         Compte source = new Compte(null,0,new Date(), TypeCompte.COURANT);
         Compte destination = new Compte(null,12000,new Date(), TypeCompte.COURANT);
         source.virement(source,destination,2000);
         Assertions.assertEquals(source.getSolde(),0);
+        Assertions.assertEquals(destination.getSolde(),12000);
+    }
+
+    @Test
+    void TestVirementSoldeCompteSourceInferieurAuMontant(){
+        Compte source = new Compte(null,5000,new Date(), TypeCompte.COURANT);
+        Compte destination = new Compte(null,12000,new Date(), TypeCompte.COURANT);
+        source.virement(source,destination,8000);
+        Assertions.assertEquals(source.getSolde(),5000);
         Assertions.assertEquals(destination.getSolde(),12000);
     }
 
