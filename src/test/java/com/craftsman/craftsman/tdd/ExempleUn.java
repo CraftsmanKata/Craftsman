@@ -24,7 +24,7 @@ public class ExempleUn {
     }
 
     @Test
-    void TestVirementSoldeCompteSourceEgaleZiro(){
+    void TestVirementSoldeCompteSourceEgaleZero(){
         Compte source = new Compte(null,0,new Date(), TypeCompte.COURANT);
         Compte destination = new Compte(null,12000,new Date(), TypeCompte.COURANT);
         Compte.virement(source,destination,2000);
