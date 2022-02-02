@@ -6,6 +6,9 @@ public class RoadStrategy implements RouteStrategy {
 
     @Override
     public String buildRoute(String source, String destination) {
-        return source +" : "+destination+" : RoadStrategy ";
+        if(null!=source && null!=destination) {
+            return source + " : " + destination + " : RoadStrategy ";
+        }
+        return "No Route";
     }
 }

@@ -6,6 +6,9 @@ public class PublicTransportStrategy implements RouteStrategy {
 
     @Override
     public String buildRoute(String source, String destination) {
-         return source +" : "+destination+" : PublicTransportStrategy ";
+        if(null!=source && null!=destination){
+            return source +" : "+destination+" : PublicTransportStrategy ";
+        }
+         return "No route";
     }
 }

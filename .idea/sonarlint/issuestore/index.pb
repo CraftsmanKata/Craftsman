@@ -5,3 +5,17 @@ A
 	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
 7
 pom.xml,4/4/442292b8a7efeabbe4cc176709b833b1792140ec
+w
+Gsrc/main/java/com/craftsman/designPattern/interfaces/RouteStrategy.java,9/b/9b76a894cd4bdfa203fce654527479f803c3c11c
+p
+@src/main/java/com/craftsman/designPattern/ExempleNavigateur.java,1/1/1148fe3dea496a16f2faa3b386d22ff06982719a
+{
+Ksrc/main/java/com/craftsman/designPattern/impl/PublicTransportStrategy.java,f/9/f9e7a156a8f980a42b7f729df01dd4ed3c7dc206
+p
+@src/main/java/com/craftsman/designPattern/impl/RoadStrategy.java,d/f/df2ef974324acbc2a85c0e60097f20d35caa7bac
+s
+Csrc/main/java/com/craftsman/designPattern/impl/WalkingStrategy.java,9/d/9da7d995e7b09b7ce5f21b965cc384cdedfc4096
+f
+6src/main/java/com/craftsman/designPattern/Context.java,c/d/cd299554723860d4cedb0dd654a84bf3729dec22
+j
+:src/test/java/com/craftsman/designPattern/ContextTest.java,6/a/6a62bd0fcdbf88dac47a2fdd7c77132c1348938b

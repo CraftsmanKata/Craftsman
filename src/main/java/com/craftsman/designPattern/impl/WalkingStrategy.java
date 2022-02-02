@@ -6,6 +6,9 @@ public class WalkingStrategy implements RouteStrategy {
 
     @Override
     public String buildRoute(String source, String destination) {
-        return source +" : "+destination+" : WalkingStrategy ";
+        if(null!=source && null!=destination) {
+            return source + " : " + destination + " : WalkingStrategy";
+        }
+        return "No Route";
     }
 }
