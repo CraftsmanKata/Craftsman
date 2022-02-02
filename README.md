@@ -40,3 +40,11 @@ Quand bien même les différentes classes itinéraire ne donneraient pas un rés
 Image 3
 
 Imaginez que vous devez vous rendre à l’aéroport. Vous pouvez prendre le bus, appeler un taxi ou enfourcher votre vélo. Ce sont vos stratégies de transport. Vous pouvez sélectionner une de ces stratégies en fonction de certains facteurs, comme le budget ou les contraintes de temps.
+
+On passe à l'implementation côte code source :)
+
+
+# Exercices
+
+Nous souhaitons développer un bouton *Save* permettant d'enregistrer un document au format 'DOC', 'DOCX' ou 'PDF'.
+- Utilisez le design pattern Strategy pour mettre en œuvre les trois stratégies de sauvegarde.
