@@ -39,6 +39,6 @@ Selectionnez la version de JDK, Puis selectionnez Maven dans le menu à droite :
 <img width="813" alt="image" src="https://user-images.githubusercontent.com/98129570/150686297-589c191b-c76c-4d68-b0e2-5be2ecaec6eb.png">
 
 
-Puis cliquez sur le bouton *Next* pour passer à l'étape suivante, saisir le nom de votre projet
+Puis cliquez sur le bouton *Next* pour passer à l'étape suivante, saisir le nom de votre projet.
 
 
