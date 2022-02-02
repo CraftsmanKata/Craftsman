@@ -23,7 +23,8 @@ De plus, travailler en équipe n’était plus efficace. Les membres de votre é
 
 Le patron de conception stratégie vous propose de prendre une classe dotée d’un comportement spécifique mais qui l’exécute de différentes façons, et de décomposer ses algorithmes en classes séparées appelées stratégies.
 
-Image 1
+![image](https://user-images.githubusercontent.com/98129570/152257273-f6b97269-dadb-4152-ac7e-628b50303090.png)
+
 
 La classe originale (le contexte) doit avoir un attribut qui garde une référence vers une des stratégies. Plutôt que de s’occuper de la tâche, le contexte la délègue à l’objet stratégie associé.
 
