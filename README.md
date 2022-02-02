@@ -28,15 +28,16 @@ Si on utilise la méthode de développement TDD, l’équipe projet suit le cycl
 
 On itère ainsi jusqu’au développement complet de la fonctionnalité. A chaque ajout de test et de développements, on vérifie que tous les tests précédents sont validés. De cette manière, aucune régression n’est introduite par le développeur.
 
-# Creation d'un projet Java en IntelleJ
+# Creation d'un projet Java Maven en IntelleJ
 
 Dans le menu de IntelliJ, selectionnez File -> New -> Project
 
 <img width="706" alt="image" src="https://user-images.githubusercontent.com/98129570/150686275-078066ce-7867-4873-b6cf-b26af54ef640.png">
 
-Selectionnez la version de JDK
+Selectionnez la version de JDK, Puis selectionnez Maven dans le menu à droite :
 
 <img width="813" alt="image" src="https://user-images.githubusercontent.com/98129570/150686297-589c191b-c76c-4d68-b0e2-5be2ecaec6eb.png">
+
 
 Puis, saisir le nom de votre projet
 
