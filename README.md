@@ -13,7 +13,7 @@ Les design patterns offrent
  - Un moyen de documentation de logiciel.
  - Une aide à la construction de logiciel complexes et hétérojenes, répondant à des propriétés précises.
  
-# Categories de design patterne
+# Categories de design pattern
 
 Création
  - Description de la manière dont un objet ou un ensemble d'objets pouvent être crées, initialisés ou configurés.
