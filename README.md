@@ -1,7 +1,7 @@
 
 # Exercices
 
-Ecrivez la methode *virement* qui permet de passer d'un virement du Compte A vers la Compte B, on respectant le mecanisme de TDD.
+Ecrivez la methode *virement* qui permet de passer d'un virement du Compte A vers le Compte B, on respectant le mecanisme de TDD.
 
 # Les règles de gestion
   - Compte A = Compte source
