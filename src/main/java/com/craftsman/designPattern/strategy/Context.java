@@ -1,6 +1,6 @@
-package com.craftsman.designPattern;
+package com.craftsman.designPattern.strategy;
 
-import com.craftsman.designPattern.interfaces.RouteStrategy;
+import com.craftsman.designPattern.strategy.interfaces.RouteStrategy;
 
 public class Context {
 

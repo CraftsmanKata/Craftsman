@@ -1,9 +1,10 @@
 package com.craftsman.designPattern;
 
 
-import com.craftsman.designPattern.impl.PublicTransportStrategy;
-import com.craftsman.designPattern.impl.RoadStrategy;
-import com.craftsman.designPattern.impl.WalkingStrategy;
+import com.craftsman.designPattern.strategy.Context;
+import com.craftsman.designPattern.strategy.impl.PublicTransportStrategy;
+import com.craftsman.designPattern.strategy.impl.RoadStrategy;
+import com.craftsman.designPattern.strategy.impl.WalkingStrategy;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

@@ -1,6 +1,6 @@
-package com.craftsman.designPattern.impl;
+package com.craftsman.designPattern.strategy.impl;
 
-import com.craftsman.designPattern.interfaces.RouteStrategy;
+import com.craftsman.designPattern.strategy.interfaces.RouteStrategy;
 
 public class RoadStrategy implements RouteStrategy {
 

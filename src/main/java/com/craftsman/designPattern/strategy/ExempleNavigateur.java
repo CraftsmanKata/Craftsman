@@ -1,8 +1,8 @@
-package com.craftsman.designPattern;
+package com.craftsman.designPattern.strategy;
 
-import com.craftsman.designPattern.impl.PublicTransportStrategy;
-import com.craftsman.designPattern.impl.RoadStrategy;
-import com.craftsman.designPattern.impl.WalkingStrategy;
+import com.craftsman.designPattern.strategy.impl.PublicTransportStrategy;
+import com.craftsman.designPattern.strategy.impl.RoadStrategy;
+import com.craftsman.designPattern.strategy.impl.WalkingStrategy;
 
 public class ExempleNavigateur {
 

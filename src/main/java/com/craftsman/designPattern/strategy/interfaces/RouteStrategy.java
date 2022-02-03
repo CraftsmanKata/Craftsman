@@ -1,4 +1,4 @@
-package com.craftsman.designPattern.interfaces;
+package com.craftsman.designPattern.strategy.interfaces;
 
 public interface RouteStrategy {
 
