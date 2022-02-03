@@ -23,7 +23,8 @@ De plus, travailler en équipe n’était plus efficace. Les membres de votre é
 
 Le patron de conception stratégie vous propose de prendre une classe dotée d’un comportement spécifique mais qui l’exécute de différentes façons, et de décomposer ses algorithmes en classes séparées appelées stratégies.
 
-Image 1
+![image](https://user-images.githubusercontent.com/98129570/152257273-f6b97269-dadb-4152-ac7e-628b50303090.png)
+
 
 La classe originale (le contexte) doit avoir un attribut qui garde une référence vers une des stratégies. Plutôt que de s’occuper de la tâche, le contexte la délègue à l’objet stratégie associé.
 
@@ -31,13 +32,15 @@ Le contexte n’a pas la responsabilité de la sélection de l’algorithme adap
 
 Le contexte devient indépendant des stratégies concrètes. Vous pouvez ainsi modifier des algorithmes ou en ajouter de nouveaux sans toucher au code du contexte ou aux autres stratégies.
 
-Image 2
+<img width="753" alt="image" src="https://user-images.githubusercontent.com/98129570/152257183-0e0420af-f140-4e21-a465-e83d5ac8791f.png">
+
 
 Dans notre application de navigation, chaque algorithme d’itinéraire peut être extrait de sa propre classe avec une seule méthode *tracerItinéraire*. La méthode accepte une origine et une destination, puis retourne une liste de points de passage.
 
 Quand bien même les différentes classes itinéraire ne donneraient pas un résultat identique avec les mêmes paramètres, la classe navigateur principale ne se préoccupe pas de l’algorithme sélectionné, car sa fonction première est d’afficher les points de passage sur la carte. La classe navigateur possède une méthode pour changer la stratégie d’itinéraire active afin que ses clients (les boutons de l’interface utilisateur par exemple) puissent remplacer le comportement sélectionné par un autre.
 
-Image 3
+<img width="236" alt="image" src="https://user-images.githubusercontent.com/98129570/152257165-5d5a97a0-867b-4aa6-8827-eb53f40abf01.png">
+
 
 Imaginez que vous devez vous rendre à l’aéroport. Vous pouvez prendre le bus, appeler un taxi ou enfourcher votre vélo. Ce sont vos stratégies de transport. Vous pouvez sélectionner une de ces stratégies en fonction de certains facteurs, comme le budget ou les contraintes de temps.
 
