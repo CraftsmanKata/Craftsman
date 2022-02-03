@@ -27,7 +27,7 @@ class ContextTest {
     }
 
     @Test
-    void TestBuildRoute() {
+    void TestWalkingStrategy() {
         Context context = new Context();
         context.setRouteStrategy(new WalkingStrategy());
 
@@ -35,17 +35,18 @@ class ContextTest {
     }
 
     @Test
-    void TestAllStrategies() {
+    void TestRoadStrategy() {
         Context context = new Context();
-
-        context.setRouteStrategy(new WalkingStrategy());
-        Assertions.assertEquals(context.buildRoute("Annecy","Paris"), "Annecy : Paris : WalkingStrategy");
 
         context.setRouteStrategy(new RoadStrategy());
         Assertions.assertEquals(context.buildRoute("Annecy","Paris"), "Annecy : Paris : RoadStrategy");
+    }
+
+    @Test
+    void TestPublicTransportStrategy() {
+        Context context = new Context();
 
         context.setRouteStrategy(new PublicTransportStrategy());
         Assertions.assertEquals(context.buildRoute("Annecy","Paris"), "Annecy : Paris : PublicTransportStrategy");
-
     }
 }
