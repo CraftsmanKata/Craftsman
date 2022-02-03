@@ -1,6 +1,6 @@
 # Définition 
 
-*Builder* ou (Monteur) &est un design pattern de conception de création qui permet de construire des objects complexes étape par étape. Il permet de produire différentes variante ou représentation d'un objet en utilisant le même code de construction.
+*Builder* ou (Monteur) est un design pattern de conception de création qui permet de construire des objects complexes étape par étape. Il permet de produire différentes variante ou représentation d'un objet en utilisant le même code de construction.
 
 <img width="712" alt="image" src="https://user-images.githubusercontent.com/98129570/152418475-2b93a84c-cce3-4d56-904b-ba24e9adbdf4.png">
 
