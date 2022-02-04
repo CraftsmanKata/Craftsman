@@ -1,52 +1,40 @@
 package com.craftsman.designPattern;
 
 
-import com.craftsman.designPattern.impl.PublicTransportStrategy;
-import com.craftsman.designPattern.impl.RoadStrategy;
-import com.craftsman.designPattern.impl.WalkingStrategy;
+
+import com.craftsman.designPattern.exercice.Context;
+import com.craftsman.designPattern.exercice.impl.SaveDoc;
+import com.craftsman.designPattern.exercice.impl.SaveDocx;
+import com.craftsman.designPattern.exercice.impl.SavePDF;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 class ContextTest {
 
+
+
     @Test
-    void TestBuildRouteSourceIsNull() {
+    void TestSaveDoc() {
         Context context = new Context();
-        context.setRouteStrategy(new WalkingStrategy());
+        context.setSaveStrategy(new SaveDoc());
 
-        Assertions.assertEquals(context.buildRoute(null,"Paris"), "No Route");
-
+        Assertions.assertEquals(context.save("DesignPatterns"), "DesignPatterns.doc");
     }
 
     @Test
-    void TestBuildRouteDestinationIsNull() {
+    void TestSaveDocx() {
         Context context = new Context();
-        context.setRouteStrategy(new WalkingStrategy());
+        context.setSaveStrategy(new SaveDocx());
 
-        Assertions.assertEquals(context.buildRoute("Annecy",null), "No Route");
+        Assertions.assertEquals(context.save("DesignPatterns"), "DesignPatterns.docx");
     }
 
     @Test
-    void TestWalkingStrategy() {
+    void TestSavePDF() {
         Context context = new Context();
-        context.setRouteStrategy(new WalkingStrategy());
+        context.setSaveStrategy(new SavePDF());
 
-        Assertions.assertEquals(context.buildRoute("Annecy","Paris"), "Annecy : Paris : WalkingStrategy");
+        Assertions.assertEquals(context.save("DesignPatterns"), "DesignPatterns.pdf");
     }
 
-    @Test
-    void TestRoadStrategy() {
-        Context context = new Context();
-
-        context.setRouteStrategy(new RoadStrategy());
-        Assertions.assertEquals(context.buildRoute("Annecy","Paris"), "Annecy : Paris : RoadStrategy");
-    }
-
-    @Test
-    void TestPublicTransportStrategy() {
-        Context context = new Context();
-
-        context.setRouteStrategy(new PublicTransportStrategy());
-        Assertions.assertEquals(context.buildRoute("Annecy","Paris"), "Annecy : Paris : PublicTransportStrategy");
-    }
 }
