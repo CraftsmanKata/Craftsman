@@ -1,4 +1,4 @@
-package com.craftsman.designPattern;
+package com.craftsman.designPattern.strategy;
 
 
 import com.craftsman.designPattern.strategy.Context;
