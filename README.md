@@ -2,7 +2,7 @@
 
 Composite est un patron de conception structurel qui permet d’agencer les objets dans des arborescences afin de pouvoir traiter celles-ci comme des objets individuels.
 
-![image](https://user-images.githubusercontent.com/98129570/152692976-6f4d439c-a32c-4fe3-97c6-bccaeac72e3b.png)
+![image](https://user-images.githubusercontent.com/98129570/152693329-12145d50-b6c3-4aa3-a194-ee80e05125c1.png)
 
 # Problème :(
 
