@@ -2,9 +2,9 @@ package com.craftsman.designPattern.builder;
 
 public class Pizza {
 
-    private String pate = "";
-    private String sauce = "";
-    private String contenu = "";
+    private String pate;
+    private String sauce;
+    private String contenu;
 
     public void setPate(String pate){
         this.pate = pate;

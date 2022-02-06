@@ -17,8 +17,6 @@ class PizzaTest {
         serveur.constructPizza();
 
         Pizza pizza = serveur.getPizza();
-        System.out.println(pizza);
-
         assertEquals(pizza.toString(),"Pizza [pate=moelleuse, sauce=douce, contenu=jambon+ananas]");
     }
 
