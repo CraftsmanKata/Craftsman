@@ -37,6 +37,14 @@ En général, les armées d’un pays sont structurées en hiérarchies. Une arm
 
 <img width="896" alt="image" src="https://user-images.githubusercontent.com/98129570/152693297-b8b00d97-de44-47a9-a9f7-20cbe742d47f.png">
 
+# Exercices 
+
+Prenons l'exemple d'un camion semi-remorque.
+
+Ce dernier est composé d'un tracteur et d'une remorque, qui ont un poid séparé mais également un poid camion entier. Un tracteur routier doit également pourvoir rouler sans remorque.
+
+- Développez la méthede *getPoid()* qui permet de recuperer le poid soit du camion seul soit du camion avec leur composants (Remorque ou Tracteur).
+- Développez les methodes "Add()" et "Remove()" qui permetent d'ajouter ou retirer un composant au camion.
 
 
 

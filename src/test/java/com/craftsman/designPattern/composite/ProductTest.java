@@ -1,4 +1,4 @@
-package com.craftsman.designPattern.composite.impl;
+package com.craftsman.designPattern.composite;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;

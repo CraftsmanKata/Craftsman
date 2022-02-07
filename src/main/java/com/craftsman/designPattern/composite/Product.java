@@ -1,6 +1,6 @@
-package com.craftsman.designPattern.composite.impl;
+package com.craftsman.designPattern.composite;
 
-import com.craftsman.designPattern.composite.insterfaces.component;
+import com.craftsman.designPattern.composite.interfaces.component;
 
 public class Product implements component {
 

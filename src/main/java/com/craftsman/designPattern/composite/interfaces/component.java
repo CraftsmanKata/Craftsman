@@ -1,4 +1,4 @@
-package com.craftsman.designPattern.composite.insterfaces;
+package com.craftsman.designPattern.composite.interfaces;
 
 public interface component {
 
