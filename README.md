@@ -10,6 +10,7 @@ Ce dernier est composé d'un tracteur et d'une remorque, qui ont un poid sépar�
 
 # Solution - Diagramme de classe
 
+![image](https://user-images.githubusercontent.com/98129570/152889259-70d31a12-9216-4c36-9cf7-9602e71fe158.png)
 
 
 
