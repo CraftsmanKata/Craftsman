@@ -57,5 +57,5 @@ Nous pouvons voir aussi que le fait de passer par des classes filles pour créer
 
 # Exercices 
 
-
+Utilisez *Factory* pour developper un exemple qui permet de créer des Ordinateur qui seront soit des PC soit des Serveurs.
 
