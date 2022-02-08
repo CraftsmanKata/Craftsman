@@ -42,8 +42,18 @@ Le code qui appelle la méthode fabrique (souvent appelé le code client) ne fai
 
 # Diagramme de classe
 
-<img width="1041" alt="image" src="https://user-images.githubusercontent.com/98129570/153080265-035120d2-900e-473e-aa2a-e6af5b077381.png">
+<img width="655" alt="image" src="https://user-images.githubusercontent.com/98129570/153092089-08e8f1df-8d59-43ec-ae03-53c9889d0aed.png">
 
+Comme vous pouvez voir ci-dessus, afin de créer notre Fabrique, nous avons besoin de 4 éléments :
+
+- Une fabrique générique : Elle contient toutes les méthodes nécessaires à la création d'un produit
+- Une fabrique : Elle va créer le produit souhaité
+- Un produit : Le produit créé par la fabrique, dérivant du produit générique
+- Un produit générique : Le produit d'origine, contenant toutes les méthodes permettant de réaliser les actions associées
+
+Ainsi, nous détachons la création des objets de l'utilisation, ce qui permet d'éviter une certaine redondance au niveau de la programmation.
+
+Nous pouvons voir aussi que le fait de passer par des classes filles pour créer différents objets permet de répondre au principe DIP, qui consiste à dire que *les objets de forte valeur métier ne doivent pas dépendre des objets de faible valeur métier*
 
 # Exercices 
 
