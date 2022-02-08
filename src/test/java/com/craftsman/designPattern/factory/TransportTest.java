@@ -7,16 +7,16 @@ import static org.junit.jupiter.api.Assertions.*;
 class TransportTest {
 
 		@Test
-        void testToStringTruck(){
-		    Transport Truck = TransportFactory.getTransport("Truck",600,"Paris","Fes");
+        void testToStringPC(){
+		    Computer pc = ComputerFactory.getComputer("pc","2GB","500GB","2.4GHz");
 
-		    assertEquals(Truck.toString(),"Source : Paris ,Destination : Fes ,kilometrage : 600");
+		    assertEquals(pc.toString(),"RAM= 2GB, HDD=500GB, CPU=2.4GHz");
         }
 
 		@Test
-		void testToStringShip(){
-			Transport Ship = TransportFactory.getTransport("Ship",230,"Paris","Fes");
+		void testToStringServer(){
+			Computer server = ComputerFactory.getComputer("server","16GB","1TB","2.9GHz");
 
-			assertEquals(Ship.toString(),"Source : Paris ,Destination : Fes ,le mille Marin : 230");
+			assertEquals(server.toString(),"RAM= 16GB, HDD=1TB, CPU=2.9GHz");
 		}
 }
