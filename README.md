@@ -46,6 +46,13 @@ Cette implémentation a recours au principe de composition : l’adaptateur impl
 
 <img width="839" alt="image" src="https://user-images.githubusercontent.com/98129570/153757933-4b8f028a-c2e4-4811-966e-5d13be2618f2.png">
 
+# Pseudo-code
+
+Considérez un scénario dans lequel il existe une application développée aux États-Unis qui renvoie la vitesse maximale des voitures de luxe en miles par heure (MPH). Nous devons maintenant utiliser la même application pour notre client au Royaume-Uni qui veut les mêmes résultats mais en kilomètres par heure (km/h).
+
+Pour résoudre ce problème, nous allons créer un adaptateur qui convertira les valeurs et nous donnera les résultats souhaités :
+
+Image 6
 
 # Exercices 
 
