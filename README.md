@@ -52,7 +52,8 @@ Considérez un scénario dans lequel il existe une application développée aux 
 
 Pour résoudre ce problème, nous allons créer un adaptateur qui convertira les valeurs et nous donnera les résultats souhaités :
 
-Image 6
+![image](https://user-images.githubusercontent.com/98129570/153762868-9e74c1f1-5df0-40cb-8346-e1477f53a3c5.png)
+
 
 # Exercices 
 
