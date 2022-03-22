@@ -11,11 +11,11 @@ Un test fait le plus souvent référence à une interaction entre un utilisateur
 
 L’approche BDD oblige à revoir la notion de test et d’expression de besoins. Par exemple, dans une approche agile (qui est à la base de l’approche BDD), une nouvelle fonctionnalité à ajouter dans un système est associée à un ensemble de critères d’acceptation avant que l’équipe ne la développe. Dan North propose de représenter autant que possible ces critères d’acceptation par des scénarios décrivant les comportements attendus du système. Pour faciliter la communication, il propose de suivre un formalisme simple pour écrire ces scénarios : Given, When, Then :
 
-Image 1
+<img width="701" alt="image" src="https://user-images.githubusercontent.com/98129570/159477898-f26231fc-95ba-4edb-8323-293fb1cef7c8.png">
 
 Soit en français :
 
-Image 2
+<img width="701" alt="image" src="https://user-images.githubusercontent.com/98129570/159477936-12891098-caa2-4a83-a2a1-1f4ce39e026a.png">
 
 Note :
 
@@ -37,19 +37,20 @@ Imaginons que nous voulions tester le jeu du pendu (the hangman en anglais). Nou
 
 Le fichier PlayHangman.feature 
 
-(Image 3)
+<img width="701" alt="image" src="https://user-images.githubusercontent.com/98129570/159478001-ea77b605-8507-42ac-b2d7-1ae63ee08536.png">
+
 
 Le fichier commence par le mot clé Feature suivi de deux points et de la description de la fonctionnalité. Puis viennent les scénarios. Chacun d’entre-eux commence par Scenario suivi de deux points et de son nom. Chaque scénario est constitué d’étapes (steps) commençant par Given, When``ou ``Then. Il est possible de séquencer plusieurs étapes en utilisant And. Nous pourrions donc fusionner les deux scénarios précédents en un seul :
 
 Le fichier PlayHangman.feature
 
-Image 4
+<img width="701" alt="image" src="https://user-images.githubusercontent.com/98129570/159478056-899272b3-330f-4553-b2c3-1e86e0678e80.png">
 
 La caractère # peut être utilisé pour signifier un commentaire. Il est également possible de l’utiliser suivi d’un mot-clé pour donner une méta-information. Par exemple, Gherkin est disponible dans de nombreuses langues. Pour préciser la langue du fichier, on utilise #language :
 
 Le fichier JeuDuPendu.feature en français
 
-Image 5
+<img width="701" alt="image" src="https://user-images.githubusercontent.com/98129570/159478100-cacbe495-77f0-4200-8197-4e6bd5cc5fef.png">
 
 La méta-information #language: fr en tête du fichier permet d’écrire les tests en français.
 
@@ -69,7 +70,7 @@ Pour poursuivre notre exemple du jeu du pendu, nous partirons du principe que le
 
 Le fichier JeuDuPendu.java
 
-Image 6
+<img width="701" alt="image" src="https://user-images.githubusercontent.com/98129570/159478197-949a74b3-2614-4715-aa7d-db25e10243b1.png">
 
 Projet de démo : 
     Vous pouvez trouver un exemple plus complet dans ce projet qui contient tous les exemples de ce chapitre.
@@ -78,7 +79,7 @@ Pour automatiser les scénarios avec Cucumber, le plus simple est de les lancer 
 
 Les dépendances Maven
 
-Image 7
+<img width="701" alt="image" src="https://user-images.githubusercontent.com/98129570/159478242-92b39da4-91e4-4422-b51b-a2cdb60e24d6.png">
 
 Pour exécuter les scénarios, nous avons besoin :
 
@@ -96,7 +97,7 @@ Pour l’exemple du jeu du pendu, voici la classe d’implémentation des étape
 
 La classe d’implémentation des étapes 
 
-Image 8
+<img width="701" alt="image" src="https://user-images.githubusercontent.com/98129570/159478281-502d5ab2-857d-4fde-b900-3a6c0bc1847f.png">
 
 Notez que ces méthodes utilisent les annotations pour préciser le texte de l’étape qu’elles représentent. Il est possible de paramétrer les étapes avec une notation de la forme {} donnant le type du paramètre.
 
@@ -128,7 +129,7 @@ La classe de lancement JUnit est très simple à écrire car elle ne contient au
 
 La classe de lancement avec JUnit
 
-Image 9
+<img width="701" alt="image" src="https://user-images.githubusercontent.com/98129570/159478335-5f0023bd-0f50-45df-a1c9-47d305e581ee.png">
 
 Pour localiser les fichiers .feature et les classes fournissant l’implémentation des étapes, la règle par défaut est d’utiliser le même package que le package de la classe de lancement.
 
@@ -136,7 +137,7 @@ Pour l’exemple ci-dessus, toutes les classes dans le package dev.gayerie.jeu e
 
 Pour exécuter les scénarios associés, il suffit de lancer cette classe de test dans votre IDE ou de lancer la commande Maven :
  
-Image 10
+<img width="701" alt="image" src="https://user-images.githubusercontent.com/98129570/159478369-8100ba12-cbe4-4846-85b8-45b031dc34d2.png">
 
 
 
